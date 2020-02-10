@@ -1,0 +1,216 @@
+.agcp-json-editor .card-panel {
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
+  padding: 24px;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.agcp-json-editor .waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+.agcp-json-editor .btn {
+  height: 24px;
+  line-height: 24px;
+  margin-left: 5px;
+  padding: 0 20px !important;
+  text-decoration: none;
+  color: #fff;
+  /* background-color: #2d8cf0; */
+  background: #ddd;
+  text-align: center;
+  letter-spacing: 0.5px;
+  outline: 0;
+  margin: 10px 0;
+  border: none;
+  border-radius: 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2); */
+}
+.agcp-json-editor label {
+  margin-right: 10px;
+}
+.agcp-json-editor .btn:hover {
+  color: #fff;
+  background-color: #2d8cf0;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+}
+.agcp-json-editor button {
+  flex-grow: 1;
+}
+.agcp-json-editor span {
+  font-weight: normal;
+}
+.agcp-json-editor .grey-text {
+  margin-top: 0 !important;
+  font-weight: bold;
+}
+.agcp-json-editor h5 {
+  display: flex;
+  align-items: center;
+}
+.agcp-json-editor i + span {
+  display: none;
+}
+.agcp-json-editor textarea {
+  border: 1px solid rgb(158, 158, 158);
+  display: block;
+}
+.agcp-json-editor .btn,
+.agcp-json-editor input,
+.agcp-json-editor textarea {
+  font-size: inherit !important;
+  width: 100%;
+}
+.agcp-json-editor h5 {
+  display: flex;
+  justify-content: space-between;
+}
+.agcp-json-editor h5 span:nth-of-type(3) {
+  display: none;
+}
+.agcp-json-editor h5 span:nth-of-type(2) {
+  display: inline-flex;
+}
+.agcp-json-editor h5 span:nth-of-type(2) button:nth-child(1) {
+  order: 4;
+}
+.agcp-json-editor h5 span:nth-of-type(2) button:nth-child(2) {
+  order: 3;
+}
+.agcp-json-editor .card-panel {
+  margin-bottom: 6px;
+}
+.agcp-json-editor .card-panel > span {
+  width: 100%;
+  text-align: right;
+}
+.agcp-json-editor .card-panel > span > button {
+  transform: translateX(-5px);
+}
+.agcp-json-editor textarea {
+  outline-color: #2d8cf0;
+  min-height: 100px;
+  margin-bottom: 0 !important;
+  background: transparent;
+}
+.agcp-json-editor input,
+.agcp-json-editor select {
+  outline: none;
+  display: block;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  background: transparent;
+  max-height: 30px;
+}
+.agcp-json-editor input:focus {
+  border-color: #2d8cf0;
+}
+.agcp-json-editor .card-panel .row:not(:last-child) {
+  margin-bottom: 0.2rem;
+}
+.agcp-json-editor .row {
+  /* background: rgb(248,248,248); */
+  /* border-right:1px solid #aaa; */
+  /* border-left:1px solid #aaa; */
+  border-radius: 10px;
+  padding: 5px;
+}
+.agcp-json-editor h5,
+.agcp-json-editor h5 + * {
+  background: #fff;
+}
+.agcp-json-editor h5 + .grey-text {
+  transform: translateY(-15px);
+}
+.agcp-json-editor h5 > span > button {
+  transform: translateY(5px);
+}
+.agcp-json-editor .form-control,
+.agcp-json-editor .input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.agcp-json-editor .input-field label + *,
+.agcp-json-editor .form-control label + * {
+  order: 3;
+}
+.agcp-json-editor label,
+.agcp-json-editor span {
+  font-size: 12px;
+  transform: none !important;
+}
+.agcp-json-editor input {
+  margin: 0 !important;
+}
+.agcp-json-editor > div > h5,
+.agcp-json-editor > div > h5 + .grey-text {
+  background: transparent;
+}
+/* 
+.form-control {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.form-control * {
+  order: 2;
+}
+.configeditor-edit .form-control label {
+  order: 1;
+}
+.configeditor-edit .form-control p {
+  order: 0;
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.configeditor-edit h3 > span {}
+.configeditor-edit .row > h3,
+.configeditor-edit .row > p {
+  display: inline-block;
+  background: #000;
+}
+.configeditor-edit h3 {
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid #000;
+}
+.configeditor-edit h3 div:nth-of-type(2){
+  display: none;
+}
+.configeditor-edit h3+p{
+  border-left: 1px solid #000;
+  border-top-left-radius: 5px;  
+}
+.configeditor-edit .row > p {
+  float: left;
+  font-weight: bold;
+  border-bottom-left-radius: 5px;  
+}
+.configeditor-edit .row {
+  margin: 10px;
+}
+
+.configeditor-edit button {
+  border-radius: 5px;
+  padding: 5px;
+}
+.configeditor-edit button + button {
+  margin-left: 10px;
+} */
