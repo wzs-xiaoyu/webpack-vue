@@ -4,8 +4,8 @@
       <div class="Project-edit">
         <ul class="Project-edit-btns">
           <!-- <li class="Project-edit-btns-item">
-            <Icon type="md-search"/>
-          </li>-->
+    <Icon type="md-search"/>
+  </li>-->
           <li class="Project-edit-btns-item" @click="projectAddForm">
             <Icon type="md-add-circle" />
           </li>

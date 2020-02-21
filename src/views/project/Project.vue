@@ -20,9 +20,9 @@
               {{ curProject.createTime }}
             </span>
             <!-- <a :href="curProject.url" target="blank">
-              <Icon type="ios-link" />
-              {{ curProject.url }}
-            </a> -->
+      <Icon type="ios-link" />
+      {{ curProject.url }}
+    </a> -->
             <a :href="'../' + curProject.name" target="blank">
               <Icon type="ios-link" />
               {{ "../" + curProject.name }}
