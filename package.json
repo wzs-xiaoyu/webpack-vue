@@ -73,7 +73,7 @@
     "crypto-js": "^3.1.9-1",
     "iview": "^3.5.4",
     "jszip": "^3.2.2",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "monaco-editor": "^0.19.3",
     "run": "^1.4.0",
     "standard-version": "^7.1.0",
